@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -17,7 +19,6 @@ gem 'webpacker', '5.1.1'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
 
 group :development, :test do
   gem 'byebug', '11.1.3', platforms: %i[mri mingw x64_mingw]
