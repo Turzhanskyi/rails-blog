@@ -15,6 +15,7 @@ gem 'rubocop', '0.86.0', require: false
 gem 'rubocop-rails', require: false
 gem 'rubocop-rspec', '1.41.0', require: false
 gem 'sass-rails', '6.0'
+gem 'stimulus_reflex', '3.2.3'
 gem 'turbolinks', '5.2.1'
 gem 'webpacker', '5.1.1'
 
