@@ -19,6 +19,8 @@ require('channels')
 require('trix')
 require('@rails/actiontext')
 
+import '../stylesheets/aplication.scss';
+
 document.addEventListener('turbolinks:load', () => {
     document.addEventListener('click', () => {
         let element = event.target.closest('.paragraph-content')
