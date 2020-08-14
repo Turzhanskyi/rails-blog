@@ -26,7 +26,7 @@ module Authors
       if @post.save
         redirect_to edit_post_path(@post)
       else
-        render :new
+        broadcast_errors @post, post_params
       end
     end
 
@@ -35,7 +35,7 @@ module Authors
       if @post.update(post_params)
         redirect_to edit_post_path(@post)
       else
-        render :edit
+        broadcast_errors @post, post_params
       end
     end
 
