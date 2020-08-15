@@ -4,6 +4,8 @@ class Post < ApplicationRecord
   extend FriendlyId
   friendly_id :title, use: %i[slugged history finders]
 
+  is_impressionable
+
   belongs_to :author
   has_many :elements, dependent: :destroy
 

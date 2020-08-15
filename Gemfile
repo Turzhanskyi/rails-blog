@@ -8,6 +8,7 @@ ruby '2.7.1'
 gem 'bootsnap', '1.4.6', require: false
 gem 'devise', '4.7.1'
 gem 'friendly_id', '~> 5.4'
+gem 'impressionist', '2.0.0'
 gem 'jbuilder', '2.10'
 gem 'pg', '1.2.3'
 gem 'puma', '4.3.5'
@@ -27,7 +28,7 @@ group :development, :test do
   gem 'byebug', '11.1.3', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails', '6.0'
   gem 'ffaker', '2.15.0'
-  gem 'pry', '0.13.1'
+  gem 'pry-rails', '0.3.9'
   gem 'rspec-rails', '4.0.1'
 end
 
