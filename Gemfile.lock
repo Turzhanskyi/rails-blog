@@ -226,7 +226,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    stimulus_reflex (3.2.3)
+    stimulus_reflex (3.3.0.pre2)
       cable_ready (>= 4.1.2)
       nokogiri
       rack
@@ -282,7 +282,7 @@ DEPENDENCIES
   sass-rails (= 6.0)
   spring (= 2.1)
   spring-watcher-listen (= 2.0.1)
-  stimulus_reflex (= 3.2.3)
+  stimulus_reflex (= 3.3.0.pre2)
   turbolinks (= 5.2.1)
   tzinfo-data
   web-console (= 4.0.3)

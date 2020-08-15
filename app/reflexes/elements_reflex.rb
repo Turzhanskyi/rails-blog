@@ -7,7 +7,6 @@ class ElementsReflex < ApplicationReflex
       element_record = Element.find(element['id'])
       element_record.update(position: element['position'])
     end
-    # NOTE: this is a hack! Might break with future versions of StimulusReflex!
-    @halter = true
+    morph :nothing
   end
 end
