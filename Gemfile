@@ -26,6 +26,13 @@ gem 'webpacker', '5.1.1'
 
 group :development, :test do
   gem 'byebug', '11.1.3', platforms: %i[mri mingw x64_mingw]
+  gem 'capistrano-bundler', '2.0.1'
+  gem 'capistrano-ext', '1.2.1'
+  gem 'capistrano-linked-files', '1.2.0'
+  gem 'capistrano-passenger', '0.2.0'
+  gem 'capistrano-rails', '1.6.1'
+  gem 'capistrano-rails-console', '2.3.0'
+  gem 'capistrano-rbenv', '2.2.0'
   gem 'factory_bot_rails', '6.0'
   gem 'ffaker', '2.15.0'
   gem 'pry-rails', '0.3.9'

@@ -9,6 +9,7 @@ AllCops:
     - "db/migrate/*"
     - 'config/environments/*'
     - 'config/initializers/doorkeeper.rb'
+    - 'config/deploy.rb'
     - 'node_modules/**/*'
     - 'vendor/**/*'
 
