@@ -20,6 +20,8 @@ gem 'sass-rails', '6.0'
 gem 'stimulus_reflex', '3.3.0.pre2'
 gem 'turbolinks', '5.2.1'
 gem 'webpacker', '5.1.1'
+gem 'hiredis', '0.6.3'
+gem 'redis', '4.2.5'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
