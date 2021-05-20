@@ -11,7 +11,7 @@ gem 'friendly_id', '~> 5.4'
 gem 'impressionist', '2.0.0'
 gem 'jbuilder', '2.10'
 gem 'pg', '1.2.3'
-gem 'puma', '4.3.5'
+gem 'puma', '4.3.8'
 gem 'rails', '6.0.3.2'
 gem 'rubocop', '0.86.0', require: false
 gem 'rubocop-rails', require: false
