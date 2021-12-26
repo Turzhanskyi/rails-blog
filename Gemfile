@@ -8,20 +8,20 @@ ruby '2.7.1'
 gem 'bootsnap', '1.4.6', require: false
 gem 'devise', '4.7.1'
 gem 'friendly_id', '~> 5.4'
+gem 'hiredis', '0.6.3'
 gem 'impressionist', '2.0.0'
 gem 'jbuilder', '2.10'
 gem 'pg', '1.2.3'
 gem 'puma', '4.3.5'
 gem 'rails', '6.0.3.2'
-gem 'rubocop', '0.86.0', require: false
+gem 'redis', '4.2.5'
+gem 'rubocop', require: false
 gem 'rubocop-rails', require: false
-gem 'rubocop-rspec', '1.41.0', require: false
+gem 'rubocop-rspec', require: false
 gem 'sass-rails', '6.0'
 gem 'stimulus_reflex', '3.3.0.pre2'
 gem 'turbolinks', '5.2.1'
 gem 'webpacker', '5.1.1'
-gem 'hiredis', '0.6.3'
-gem 'redis', '4.2.5'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
