@@ -12,7 +12,7 @@ gem 'hiredis', '0.6.3'
 gem 'impressionist', '2.0.0'
 gem 'jbuilder', '2.10'
 gem 'pg', '1.2.3'
-gem 'puma', '4.3.5'
+gem 'puma', '4.3.9'
 gem 'rails', '6.0.3.2'
 gem 'redis', '4.2.5'
 gem 'rubocop', require: false
